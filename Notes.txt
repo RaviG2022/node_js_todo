@@ -1,0 +1,23 @@
+* Node Js 
+
+node -v check version 
+node init
+node .\index.js
+npm i -g nodemon
+nodemon .\index.js
+
+for import - export in package.json type:"module"
+
+
+npm i express
+
+package.json script {
+
+    "start":"node index.js", -->npm start
+    "dev": "nodemon index.js" --> npm run dev
+}
+
+
+npm i ejs
+
+middlewer app.use(express.urlencoded({ extended: true }));
